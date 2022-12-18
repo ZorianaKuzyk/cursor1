@@ -1,0 +1,32 @@
+.Container {
+  width: 50%;
+  border: 1px solid gainsboro;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 100px;
+  margin: auto;
+}
+h1 {
+  font-family: Georgia;
+  font-weight: 100;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+.header2 {
+  font-family: Arial;
+  font-weight: 700;
+  margin-bottom: -10px;
+}
+.header3 {
+  margin-bottom: -15px;
+  font-family: Arial;
+  font-size: 14px;
+}
+ul {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin-top: -15px;
+}
