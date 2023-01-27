@@ -1,0 +1,307 @@
+.block {
+  width: 400px;
+  height: 300px;
+  margin: 0 auto;
+  background: url(./img/stars.jpg);
+  animation: stars 3.5s infinite linear;
+  animation-play-state: paused;
+}
+@keyframes stars {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 100%;
+  }
+}
+.sword {
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 50px;
+  width: 350px;
+  height: 25px;
+  border-radius: 50px;
+  background: rgb(132, 128, 128);
+  animation: sword 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes sword {
+  50% {
+    box-shadow: 0px 0px 5px 4px rgb(248 251 249);
+  }
+  100% {
+    box-shadow: 0px 0px 10px 12px rgb(107, 205, 141);
+  }
+}
+.item_mini {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 2px 2px rgb(239, 240, 239);
+  animation: item_mini 2.5s alternate-reverse ease-in forwards infinite;
+  animation-play-state: paused;
+}
+@keyframes item_mini {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.sword2 {
+  position: absolute;
+  margin-top: 110px;
+  width: 350px;
+  height: 25px;
+  border-radius: 50px;
+  background: rgb(132, 128, 128);
+  transform: rotate(10deg);
+  animation: sword2 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes sword2 {
+  50% {
+    box-shadow: 0px 0px 5px 4px rgb(248 251 249);
+  }
+  100% {
+    box-shadow: 0px 0px 10px 12px rgb(132, 127, 181);
+  }
+}
+.item_mini2 {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 2px 2px rgb(239, 240, 239);
+  animation: item_mini 2.5s alternate-reverse ease-in forwards infinite;
+  animation-play-state: paused;
+}
+@keyframes item_mini2 {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.sword3 {
+  position: absolute;
+  margin-top: 110px;
+  width: 350px;
+  height: 25px;
+  border-radius: 50px;
+  background: rgb(132, 128, 128);
+  transform: rotate(-10deg);
+  animation: sword3 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes sword3 {
+  50% {
+    box-shadow: 0px 0px 5px 4px rgb(248 251 249);
+  }
+  100% {
+    box-shadow: 0px 0px 10px 12px rgb(131, 73, 89);
+  }
+}
+.item_mini3 {
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background-color: black;
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 2px 2px rgb(239, 240, 239);
+  animation: item_mini 2.5s alternate-reverse ease-in forwards infinite;
+  animation-play-state: paused;
+}
+@keyframes item_mini3 {
+  0% {
+    left: 300px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+.actions {
+  display: flex;
+  position: absolute;
+  margin-top: 270px;
+  margin-left: 258px;
+  gap: 20px;
+  width: 145px;
+  height: 30px;
+}
+.Turn_on {
+  background-color: rgb(239, 241, 76);
+}
+.Turn_off {
+  background-color: rgb(239, 241, 76);
+}
+.Turn_on:hover {
+  transform: scale(1.1);
+  background-color: rgb(135, 137, 2);
+  cursor: pointer;
+}
+.Turn_off:hover {
+  transform: scale(1.1);
+  background-color: rgb(135, 137, 2);
+  cursor: pointer;
+}
+.block_circles {
+  display: flex;
+  column-gap: 10px;
+  width: 475px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.circle1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle1 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle1 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background-color: rgb(47, 51, 236);
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background-color: rgb(47, 51, 236);
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}
+.circle2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle2 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle2 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}
+.circle3 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle3 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle3 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background-color: rgb(96, 226, 182);
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}
+.circle4 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle4 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle4 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background-color: rgb(91, 212, 169);
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}
+.circle5 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle5 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle5 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background-color: rgb(75, 180, 166);
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}
+.circle6 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle6 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle6 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background-color: rgb(66, 159, 148);
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}
+.circle7 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  animation: circle7 2.5s infinite alternate;
+  animation-play-state: paused;
+}
+@keyframes circle7 {
+  50% {
+    background-color: rgb(47, 51, 236);
+  }
+  75% {
+    background: linear-gradient(0.3turn, rgb(47, 51, 236), rgb(96, 226, 182));
+    box-shadow: 0px 0px 3px 3px rgb(239, 241, 76);
+  }
+  100% {
+    background-color: rgb(59, 140, 133);
+    box-shadow: 0px 0px 5px 5px rgb(159, 219, 21);
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework11</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="block">
+        <div class="sword">
+          <div class="item_mini"></div>
+          <div class="sword2">
+            <div class="item_mini2"></div>
+          </div>
+          <div class="sword3">
+            <div class="item_mini3"></div>
+          </div>
+        </div>
+        <div class="actions">
+          <button class="Turn_on">Turn on</button>
+          <button class="Turn_off">Turn off</button>
+        </div>
+      </div>
+      <div class="block_circles">
+        <div class="circle1"></div>
+        <div class="circle2"></div>
+        <div class="circle3"></div>
+        <div class="circle4"></div>
+        <div class="circle5"></div>
+        <div class="circle6"></div>
+        <div class="circle7"></div>
+      </div>
+    </main>
+    <script>
+      const btn1 = document.querySelector(".Turn_on");
+      const btn2 = document.querySelector(".Turn_off");
+      const anim1 = document.querySelector(".sword");
+      const anim2 = document.querySelector(".sword2");
+      const anim3 = document.querySelector(".sword3");
+      const anim4 = document.querySelector(".item_mini");
+      const anim5 = document.querySelector(".item_mini2");
+      const anim6 = document.querySelector(".item_mini3");
+      const anim7 = document.querySelector(".block");
+      const anim8 = document.querySelector(".circle1");
+      const anim9 = document.querySelector(".circle2");
+      const anim10 = document.querySelector(".circle3");
+      const anim11 = document.querySelector(".circle4");
+      const anim12 = document.querySelector(".circle5");
+      const anim13 = document.querySelector(".circle6");
+      const anim14 = document.querySelector(".circle7");
+      btn1.onclick = () => {
+        anim1.style.animationPlayState = "running";
+        anim2.style.animationPlayState = "running";
+        anim3.style.animationPlayState = "running";
+        anim4.style.animationPlayState = "running";
+        anim5.style.animationPlayState = "running";
+        anim6.style.animationPlayState = "running";
+        anim7.style.animationPlayState = "running";
+        anim8.style.animationPlayState = "running";
+        anim9.style.animationPlayState = "running";
+        anim10.style.animationPlayState = "running";
+        anim11.style.animationPlayState = "running";
+        anim12.style.animationPlayState = "running";
+        anim13.style.animationPlayState = "running";
+        anim14.style.animationPlayState = "running";
+      };
+      btn2.onclick = () => {
+        anim1.style.animationPlayState = "paused";
+        anim2.style.animationPlayState = "paused";
+        anim3.style.animationPlayState = "paused";
+        anim4.style.animationPlayState = "paused";
+        anim5.style.animationPlayState = "paused";
+        anim6.style.animationPlayState = "paused";
+        anim7.style.animationPlayState = "paused";
+        anim8.style.animationPlayState = "paused";
+        anim9.style.animationPlayState = "paused";
+        anim10.style.animationPlayState = "paused";
+        anim11.style.animationPlayState = "paused";
+        anim12.style.animationPlayState = "paused";
+        anim13.style.animationPlayState = "paused";
+        anim14.style.animationPlayState = "paused";
+      };
+    </script>
+  </body>
+</html>
