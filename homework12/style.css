@@ -1,0 +1,199 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 942px;
+}
+.block_nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.nav input {
+  display: flex;
+  max-width: 216px;
+  height: 29px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+}
+.search {
+  position: absolute;
+  margin-top: 10px;
+  margin-right: 143px;
+}
+.btn-secondary {
+  display: flex;
+  height: 29px;
+  text-align: center;
+  align-items: center;
+}
+.Chats_circle {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: 12px;
+  margin-top: -28px;
+  background: #dc565b;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+}
+.line_header {
+  max-width: 1459px;
+  height: 1px;
+  background: #dbdbdb;
+  margin-top: 3px;
+}
+a {
+  text-decoration: none;
+  color: #1d4680;
+  font-weight: 600;
+}
+.content {
+  display: flex;
+  margin-top: 35px;
+}
+.content2 {
+  display: flex;
+  padding-top: 5px;
+}
+.name_user {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #262626;
+}
+.number_posts {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #262626;
+}
+.numder_followers {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #262626;
+  padding-left: 39px;
+}
+.numder_following {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #262626;
+  padding-left: 35px;
+}
+.name_user_second {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  color: #262626;
+  margin: 0;
+}
+.text_lorem {
+  margin: 0;
+}
+.follow_btn {
+  width: 97px;
+  height: 26px;
+  background: #4094ef;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-left: 26px;
+  cursor: pointer;
+}
+.follow_btn:hover {
+  background: #097af2;
+}
+.button {
+  width: 33px;
+  height: 26px;
+  background: #4094ef;
+  border-radius: 3px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.button:hover {
+  background: #097af2;
+}
+.menu_elipses {
+  margin-left: 16px;
+  cursor: pointer;
+}
+.stories_user {
+  display: flex;
+  padding-top: 98px;
+  column-gap: 35px;
+}
+.block_stories {
+  width: 5.3rem;
+  height: 5.3rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 50%;
+  background: url(./img/photos_user.png) no-repeat center;
+}
+.name_stories {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #262626;
+  margin-left: 18px;
+  margin-top: 100px;
+}
+.line_content {
+  max-width: 942px;
+  height: 1px;
+  background: #dbdbdb;
+  margin-top: 87px;
+}
+.line_mini_content {
+  max-width: 64px;
+  height: 1px;
+  margin-left: 365px;
+  background: #262626;
+}
+.pictures_user {
+  display: flex;
+  margin-top: 19px;
+  column-gap: 64px;
+  margin-left: 55px;
+}
+.posts_user {
+  display: flex;
+  column-gap: 5px;
+  cursor: pointer;
+}
+.posts_user_text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #262626;
+}
+.joint_photos_user {
+  display: flex;
+  column-gap: 5px;
+  cursor: pointer;
+}
+.joint_photos_user_text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #8f8f8f;
+}
+.all_posts_user {
+  display: flex;
+  gap: 15px;
+}
