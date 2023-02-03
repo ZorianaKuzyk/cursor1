@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0;
+  align-items: center;
 }
 .nav input {
   display: flex;
@@ -16,6 +17,11 @@ body {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
+}
+.nav_list {
+  display: flex;
+  column-gap: 20px;
+  margin: 0;
 }
 .search {
   position: absolute;
@@ -46,6 +52,9 @@ body {
   height: 1px;
   background: #dbdbdb;
   margin-top: 3px;
+}
+li {
+  list-style-type: none;
 }
 a {
   text-decoration: none;
@@ -114,7 +123,7 @@ a {
 .follow_btn:hover {
   background: #097af2;
 }
-.button {
+.button_first {
   width: 33px;
   height: 26px;
   background: #4094ef;
@@ -124,14 +133,36 @@ a {
   align-items: center;
   justify-content: center;
   margin-left: 8px;
-  cursor: pointer;
+  border: none;
 }
-.button:hover {
+.button_first:hover {
   background: #097af2;
 }
+.button_first:focus {
+  background: #097af2;
+}
+.button_elipses {
+  width: 33px;
+  height: 26px;
+  background: white;
+  border-radius: 3px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  border: none;
+  color: black;
+  font-size: 25px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.triangle_down {
+  font-size: 10px;
+}
 .menu_elipses {
-  margin-left: 16px;
-  cursor: pointer;
+  font-size: 18px;
 }
 .stories_user {
   display: flex;

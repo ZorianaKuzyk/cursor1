@@ -18,7 +18,7 @@
     <header class="header">
       <nav class="nav">
         <div class="container my-2">
-          <div class="row">
+          <div class="row align-items center">
             <div class="block_nav">
               <div class="col-2">
                 <a href="#" class="logo">
@@ -48,19 +48,11 @@
                     aria-label="Search">
                 </form>
               </div>
-              <div class="col-3 d-flex justify-content-end">
-                <div class="dropdown">
-                  <button
-                    class="btn btn-secondary dropdown-toggle"
-                    type="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Dropdown button
-                  </button>
-                  <ul class="dropdown-menu">
+              <div class="col-3 d-flex justify-content-end align-items-center">
+                <div class="navbar_menu_nav">
+                  <ul class="nav_list">
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="list_item" href="#">
                         <svg
                           width="23"
                           height="22"
@@ -76,7 +68,7 @@
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="list_item" href="#">
                         <svg
                           width="22"
                           height="19"
@@ -93,7 +85,7 @@
                       >
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="list_item" href="#">
                         <svg
                           width="22"
                           height="22"
@@ -111,7 +103,7 @@
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#"
+                      <a class="list_item" href="#"
                         ><svg
                           width="22"
                           height="19"
@@ -129,7 +121,7 @@
                       </a>
                     </li>
                     <li>
-                      <a class="dropdown-item" href="#">
+                      <a class="list_item" href="#">
                         <svg
                           width="22"
                           height="22"
@@ -164,48 +156,77 @@
             <div class="content">
               <h2 class="name_user">name</h2>
               <div class="follow_btn">Follow</div>
-              <div class="button">
-                <svg
-                  width="8"
-                  height="4"
-                  viewBox="0 0 8 4"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn btn-primary dropdown-toggle button_first"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <path d="M4 4L0 0L8 6.05683e-07L4 4Z" fill="white" />
-                </svg>
+                  <i class="fa-solid fa-caret-down triangle_down"></i>
+                </button>
+                <ul class="dropdown-menu list_item_2">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Change password
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      QR <code></code>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Applications and sites
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Notification
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Privacy and security
+                    </button>
+                  </li>
+                </ul>
               </div>
-              <div class="menu_elipses">
-                <svg
-                  class="elipse"
-                  width="4"
-                  height="4"
-                  viewBox="0 0 4 4"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn btn-primary dropdown-toggle button_elipses"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
                 >
-                  <circle cx="2" cy="2" r="2" fill="#262626" />
-                </svg>
-                <svg
-                  class="elipse"
-                  width="4"
-                  height="4"
-                  viewBox="0 0 4 4"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="2" cy="2" r="2" fill="#262626" />
-                </svg>
-                <svg
-                  class="elipse"
-                  width="4"
-                  height="4"
-                  viewBox="0 0 4 4"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="2" cy="2" r="2" fill="#262626" />
-                </svg>
+                  <i class="fa-solid fa-ellipsis menu_elipses"></i>
+                </button>
+                <ul class="dropdown-menu list_item_2">
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Supervision
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Login to the account<code></code>
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      E-mails from Instagram
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">
+                      Report the problem
+                    </button>
+                  </li>
+                  <li>
+                    <button class="dropdown-item" type="button">Go out</button>
+                  </li>
+                </ul>
               </div>
             </div>
             <div class="content2">
@@ -370,6 +391,10 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/64c13699fe.js"
       crossorigin="anonymous"
     ></script>
   </body>
