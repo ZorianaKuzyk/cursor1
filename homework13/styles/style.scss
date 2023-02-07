@@ -64,6 +64,7 @@ h3 {
   $font-stack: "Roboto", sans-serif;
   position: relative;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 .header a {
   text-decoration: none;
@@ -313,6 +314,7 @@ button:hover {
   .container {
     margin-left: 10px;
     margin-right: 10px;
+    overflow: hidden;
   }
   .header {
     display: flex;
@@ -402,6 +404,7 @@ button:hover {
   .container {
     margin-left: 10px;
     margin-right: 10px;
+    overflow: hidden;
   }
   .header_burger {
     display: block;

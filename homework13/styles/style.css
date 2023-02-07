@@ -79,6 +79,7 @@ h3 {
   flex-direction: column;
   position: relative;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
 }
 
 .header a {
@@ -382,6 +383,7 @@ button:hover {
   .container {
     margin-left: 10px;
     margin-right: 10px;
+    overflow: hidden;
   }
   .header {
     display: flex;
@@ -476,6 +478,7 @@ button:hover {
   .container {
     margin-left: 10px;
     margin-right: 10px;
+    overflow: hidden;
   }
   .header_burger {
     display: block;
@@ -516,7 +519,7 @@ button:hover {
     top: 0;
   }
   .header_burger::before,
-.header_burger::after {
+  .header_burger::after {
     content: "";
     background-color: #505f98;
     position: absolute;
