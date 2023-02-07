@@ -7,6 +7,7 @@ body {
   position: relative;
   background: #ffffff;
   margin: 0 auto;
+  overflow: hidden;
 }
 .header {
   display: flex;
@@ -375,7 +376,8 @@ svg:hover {
 }
 @media (max-width: 720px) {
   .wrapper {
-    width: 360px;
+    max-width: 360px;
+    overflow: hidden;
   }
   .header {
     display: block;
@@ -393,7 +395,7 @@ svg:hover {
   .header_block_left_title {
     font-size: 30px;
     line-height: 40px;
-    width: 320px;
+    max-width: 320px;
     text-align: center;
     margin-left: -80px;
   }
@@ -413,7 +415,7 @@ svg:hover {
     margin-left: 10px;
   }
   .img-google-play {
-    width: 145.69px;
+    max-width: 145.69px;
     margin-left: 28px;
   }
   .header_block_right {
@@ -426,14 +428,14 @@ svg:hover {
   .section1_block_left2_img1 {
     margin-top: 60px;
     z-index: 2;
-    width: 247.21px;
+    max-width: 247.21px;
     margin-left: -14px;
   }
   .section1_block_left2_img2 {
     margin-top: 175px;
     margin-left: 83px;
     z-index: 1;
-    width: 247.21px;
+    max-width: 247.21px;
   }
   .section1_block_left {
     order: 2;
@@ -456,7 +458,7 @@ svg:hover {
   .section1_block_right_p2,
   .section1_block_right_p3 {
     margin-top: 11px;
-    width: 320px;
+    max-width: 320px;
     margin-left: 20px;
     color: #4f4f4f;
   }
@@ -494,7 +496,7 @@ svg:hover {
     background: url(./img/img_mobile.png);
   }
   .section2_block_right_image_phone {
-    width: 300px;
+    max-width: 300px;
     margin-top: 83px;
     margin-left: 20px;
   }
@@ -502,13 +504,13 @@ svg:hover {
     position: absolute;
     margin-top: 93px;
     margin-left: -288px;
-    width: 100px;
+    max-width: 100px;
   }
   .section2_block_right_image_2 {
     position: absolute;
     margin-top: 363px;
     margin-left: -79px;
-    width: 100px;
+    max-width: 100px;
   }
   .section3 {
     height: 1780px;
@@ -576,19 +578,19 @@ svg:hover {
     display: none;
   }
   .slider_child1 {
-    visibility: hidden;
+    margin-left: 27px;
   }
   .slider_child2 {
-    margin-left: -45px;
+    margin-left: 27px;
   }
   .slider_child3 {
-    visibility: hidden;
+    margin-left: 27px;
   }
   .slider_child4 {
-    visibility: hidden;
+    margin-left: 27px;
   }
   .slider_child5 {
-    visibility: hidden;
+    margin-left: 27px;
   }
   .section5 {
     height: 409px;
@@ -604,7 +606,7 @@ svg:hover {
     flex-wrap: wrap;
   }
   .picture2 {
-    width: 102px;
+    max-width: 102px;
     height: 32px;
     margin-top: -75px;
     margin-left: 215px;
@@ -613,13 +615,13 @@ svg:hover {
     margin-top: -40px;
   }
   .picture4 {
-    width: 110px;
+    max-width: 110px;
     height: 32px;
     margin-top: -75px;
     margin-left: 105px;
   }
   .picture5 {
-    width: 48px;
+    max-width: 48px;
     height: 48px;
     margin-top: -115px;
     margin-left: 260px;
@@ -651,7 +653,7 @@ svg:hover {
   }
   .section6_block_right_p {
     text-align: center;
-    width: 336px;
+    max-width: 336px;
     margin-left: 10px;
     margin-top: -65px;
     margin-bottom: -25px;
@@ -661,11 +663,11 @@ svg:hover {
     margin-left: 20px;
   }
   .App_Store {
-    width: 145.69px;
+    max-width: 145.69px;
     height: 44px;
   }
   .Google_Pay {
-    width: 145.69px;
+    max-width: 145.69px;
     height: 44px;
     margin-left: 28px;
   }
