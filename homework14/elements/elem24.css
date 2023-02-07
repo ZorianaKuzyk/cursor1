@@ -1,0 +1,14 @@
+.gray-buttons__first {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 111px;
+  height: 36px;
+  background: rgba(224, 224, 224, 0.3);
+  border: none;
+  border-radius: 5px;
+  color: #878787;
+  font-size: 0.81rem;
+}
+/*# sourceMappingURL=elem24.css.map */

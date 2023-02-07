@@ -1,0 +1,11 @@
+.different-buttons__search {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 48px;
+  background: #18a0fb;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}/*# sourceMappingURL=elem13.css.map */

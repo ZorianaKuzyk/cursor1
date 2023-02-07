@@ -1,0 +1,12 @@
+.button.tag-buttons__second {
+  width: 65px;
+  height: 28px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #18a0fb;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 0.81rem;
+} /*# sourceMappingURL=elem44.css.map */

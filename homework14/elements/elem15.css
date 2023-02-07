@@ -1,0 +1,11 @@
+.different-buttons__box {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 0px 5px 5px 0px;
+}/*# sourceMappingURL=elem15.css.map */

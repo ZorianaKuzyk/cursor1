@@ -1,0 +1,13 @@
+.tag-second-buttons__first {
+  width: 51px;
+  height: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(224, 224, 224, 0.3);
+  color: #2c2c2c;
+  font-size: 0.81rem;
+  border: 1px solid rgba(224, 224, 224, 1);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=elem45.css.map */

@@ -1,0 +1,16 @@
+.blue-white-buttons__third {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  width: 111px;
+  height: 36px;
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  color: #18a0fb;
+  font-size: 0.81rem;
+  border: 1px solid #18a0fb;
+}
+/*# sourceMappingURL=elem32.css.map */

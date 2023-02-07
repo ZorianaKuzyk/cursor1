@@ -1,0 +1,11 @@
+.button.search-buttons__third {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 0px 5px 5px 0px;
+}
+/*# sourceMappingURL=elem37.css.map */

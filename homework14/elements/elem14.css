@@ -1,0 +1,11 @@
+.different-buttons__download {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid rgb(224, 224, 224);
+  border-right: none;
+}/*# sourceMappingURL=elem14.css.map */

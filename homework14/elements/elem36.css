@@ -1,0 +1,11 @@
+.button.search-buttons__second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid rgb(224, 224, 224);
+  border-right: none;
+}
+/*# sourceMappingURL=elem36.css.map */

@@ -1,0 +1,14 @@
+.tab-buttons__tab-2 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #2c2c2c;
+  font-size: 0.93rem;
+  width: 134px;
+  height: 46px;
+  background: #ffffff;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
+}/*# sourceMappingURL=elem17.css.map */

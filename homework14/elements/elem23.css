@@ -1,0 +1,14 @@
+.blue-red-buttons__third {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-direction: row-reverse;
+  width: 111px;
+  height: 36px;
+  background-color: #ff3e1d;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 0.81rem;
+}/*# sourceMappingURL=elem23.css.map */

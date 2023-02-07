@@ -1,0 +1,187 @@
+@import url(./elements/elem1.css);
+@import url(./elements/elem2.css);
+@import url(./elements/elem3.css);
+@import url(./elements/elem4.css);
+@import url(./elements/elem5.css);
+@import url(./elements/elem6.css);
+@import url(./elements/elem7.css);
+@import url(./elements/elem8.css);
+@import url(./elements/elem9.css);
+@import url(./elements/elem10.css);
+@import url(./elements/elem11.css);
+@import url(./elements/elem12.css);
+@import url(./elements/elem13.css);
+@import url(./elements/elem14.css);
+@import url(./elements/elem15.css);
+@import url(./elements/elem16.css);
+@import url(./elements/elem17.css);
+@import url(./elements/elem18.css);
+@import url(./elements/elem19.css);
+@import url(./elements/elem20.css);
+@import url(./elements/elem21.css);
+@import url(./elements/elem22.css);
+@import url(./elements/elem23.css);
+@import url(./elements/elem24.css);
+@import url(./elements/elem25.css);
+@import url(./elements/elem26.css);
+@import url(./elements/elem27.css);
+@import url(./elements/elem28.css);
+@import url(./elements/elem29.css);
+@import url(./elements/elem30.css);
+@import url(./elements/elem31.css);
+@import url(./elements/elem32.css);
+@import url(./elements/elem33.css);
+@import url(./elements/elem34.css);
+@import url(./elements/elem35.css);
+@import url(./elements/elem36.css);
+@import url(./elements/elem37.css);
+@import url(./elements/elem38.css);
+@import url(./elements/elem39.css);
+@import url(./elements/elem40.css);
+@import url(./elements/elem41.css);
+@import url(./elements/elem42.css);
+@import url(./elements/elem43.css);
+@import url(./elements/elem44.css);
+@import url(./elements/elem45.css);
+@import url(./elements/elem46.css);
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+.header {
+  text-align: center;
+}
+.buttons-big__title {
+  font-weight: 600;
+  font-size: 1.56rem;
+  margin: 0;
+  margin-bottom: 26px;
+}
+.buttons-big {
+  padding-left: 50px;
+}
+.buttons-big__wrap {
+  display: flex;
+  column-gap: 132px;
+  flex-wrap: wrap;
+}
+.buttons-big__list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.list__blue-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.list__grey-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.list__black-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.list__white-blue-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.buttons-big__list-second {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.list-second__different-buttons {
+  display: flex;
+}
+.list-second__tab-buttons {
+  display: flex;
+}
+.list-second__size-buttons {
+  display: flex;
+}
+.buttons-small {
+  padding-left: 50px;
+  margin-top: 73px;
+}
+.buttons-small__title {
+  font-size: 1.56rem;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.buttons-small__wrap {
+  display: flex;
+  margin-left: 20px;
+  flex-wrap: wrap;
+  max-width: 1100px;
+}
+.item__blue-red-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.item__tag-buttons {
+  display: flex;
+}
+.buttons-small__item {
+  display: flex;
+  flex-direction: row;
+  column-gap: 54px;
+  font-weight: 600;
+}
+.item__gray-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.item__black-white-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.item__blue-white-buttons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.buttons-small__item-second {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-left: 146px;
+}
+.item-second__tab-buttons {
+  display: flex;
+}
+.item-second__search-buttons {
+  display: flex;
+}
+.item-second__info-buttons {
+  display: flex;
+}
+.buttons-small__item-third {
+  display: flex;
+  flex-direction: column;
+  margin-left: 66px;
+}
+.item-third__icons-search-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+.item__tag-buttons {
+  display: flex;
+  margin-top: 50px;
+  column-gap: 12px;
+}
+.item__tag-second-buttons {
+  display: flex;
+  column-gap: 25px;
+  margin-top: 15px;
+}
