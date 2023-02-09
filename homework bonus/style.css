@@ -5,9 +5,16 @@ body {
     rgba(44, 44, 45, 1)
   );
 }
+.wrapper {
+  box-sizing: border-box;
+  width: 1330px;
+  height: 1200px;
+  display: inline-block;
+  }
 .container_screen1 {
   background: url("../homework bonus/image/image.jpg");
   position: relative;
+  display: inline-block;
   width: 390px;
   height: 844px;
   top: 179.03px;
@@ -326,7 +333,7 @@ header {
 }
 .container_screen2 {
   position: relative;
-  width: 390px;
+    width: 390px;
   height: 844px;
   left: 934.83px;
   bottom: 669px;
