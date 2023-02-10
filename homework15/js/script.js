@@ -11,3 +11,4 @@ $(".slick-carousel").slick({
     let preloader = document.getElementById('preloader');
     preloader.style.display = 'none'
   };
+  
